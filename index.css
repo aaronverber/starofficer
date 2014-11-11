@@ -13,7 +13,7 @@ html,body {
 			right: 0;
 			top: 10px;
 			margin: auto;
-      z-index: -1;
+      z-index: 1;
       
 }
 
@@ -33,4 +33,50 @@ html,body {
 
 #velocity{
   color: red;
+}
+
+#brakes{
+	text-align: center;
+	position: absolute;
+	color: #fffff3;
+	background-color: #9f1d1d;
+	font-size: 10pt;
+}
+
+.planetInfoText{
+	position: relative;
+	color: #fffff3;
+	text-align: center;
+
+	white-space: nowrap;
+}
+
+.planetName{
+	position: relative;
+	font-size: 20pt;
+	letter-spacing: 5px;
+	padding-top: 180px;
+	-webkit-transition: padding-top 1s ease-out;
+	-moz-transition: padding-top 1s ease-out;
+	-o-transition: padding-top 1s ease-out;
+	transition: padding-top 1s ease-out;
+}
+
+.planetName-changed{
+	padding-top: 40px;
+}
+
+.planetWelcome{
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	width: 400px;
+	padding-top: 28px;
+	display: none;
+}
+
+.planetIcons{
+	
 }
