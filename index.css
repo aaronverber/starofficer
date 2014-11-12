@@ -33,6 +33,7 @@ html,body {
 
 #velocity{
   color: red;
+	position: absolute;
 }
 
 #brakes{
@@ -44,7 +45,7 @@ html,body {
 }
 
 .locationInfoText{
-	position: relative;
+	position: absolute;
 	color: #fffff3;
 	text-align: center;
 }
