@@ -43,13 +43,13 @@ html,body {
 	font-size: 10pt;
 }
 
-.planetInfoText{
+.locationInfoText{
 	position: relative;
 	color: #fffff3;
 	text-align: center;
 }
 
-.planetName{
+.locationName{
 	position: relative;
 	font-size: 20pt;
 	letter-spacing: 5px;
@@ -60,11 +60,11 @@ html,body {
 	transition: padding-top 1s ease-out;
 }
 
-.planetName-changed{
+.locationName-changed{
 	padding-top: 40px;
 }
 
-.planetWelcome{
+.locationWelcome{
 	position: absolute;
 	text-align: center;
 	font-size: 12px;
@@ -75,7 +75,7 @@ html,body {
 	display: none;
 }
 
-.planetIconRow{
+.locationIconRow{
 	position: absolute;
 	width: 400px;
 	text-align: center;
@@ -83,14 +83,14 @@ html,body {
 	display: none;
 }
 
-.planetDescription{
+.locationDescription{
 	position: relative;
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	padding-top: 35px;
-	font-size: 12px;
+	font-size: 13px;
 	font-style: italic;
 	font-weight: 400;
 	display: none;
